@@ -1,0 +1,220 @@
+// https://developers.line.biz/flex-simulator/
+
+{
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Inventory Database",
+        "weight": "bold",
+        "color": "#555555",
+        "size": "sm",
+        "offsetTop": "1px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "P001",
+            "color": "#ffffff",
+            "size": "xs",
+            "align": "center",
+            "gravity": "center",
+            "weight": "bold"
+          }
+        ],
+        "position": "absolute",
+        "flex": 0,
+        "width": "55px",
+        "height": "25px",
+        "backgroundColor": "#1DB446",
+        "cornerRadius": "100px",
+        "offsetTop": "18px",
+        "offsetEnd": "18px"
+      },
+      {
+        "type": "text",
+        "text": "Brown Store",
+        "weight": "bold",
+        "size": "xxl",
+        "margin": "md",
+        "color": "#1DB446"
+      },
+      {
+        "type": "text",
+        "text": "สถาบันเพิ่มผลผลิตแห่งชาติ",
+        "size": "xs",
+        "color": "#aaaaaa",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://raw.githubusercontent.com/DuckDays/BOT101/main/Smart%20Watch.png",
+            "align": "center",
+            "size": "xl",
+            "margin": "xxl"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "รายละเอียด",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "2.4 GHz 80 mAh",
+                "size": "sm",
+                "color": "#1DB446",
+                "align": "end",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "เงื่อนไขขายส่ง",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "> 100 pcs , Plus 300 points",
+                "size": "sm",
+                "color": "#1DB446",
+                "align": "end",
+                "weight": "bold",
+                "adjustMode": "shrink-to-fit"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ราคาขาย-ปลีก",
+                "size": "sm",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "$7.31",
+                "size": "sm",
+                "color": "#1DB446",
+                "align": "end",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ราคาขาย-ส่ง",
+                "size": "sm",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "$8.0",
+                "size": "sm",
+                "color": "#1DB446",
+                "align": "end",
+                "weight": "bold"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "คงเหลือ",
+                "size": "sm",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "$0.69",
+                "size": "sm",
+                "color": "#1DB446",
+                "align": "end",
+                "weight": "bold"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ผู้ดูแลคลังสินค้า",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "พรรษชล บุญมา",
+            "color": "#aaaaaa",
+            "size": "xs",
+            "align": "end"
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
